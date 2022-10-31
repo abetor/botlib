@@ -443,7 +443,7 @@ message_id (string) — the key of the message sent by the bot.
 Data for the request body:
 ```json5 
 {
-     "text": "Привет, это сообщение от бота",
+     "text": "Hi, this is a message from a bot",
      "type": "text",
      "user_id": 12345
 }
