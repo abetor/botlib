@@ -175,7 +175,7 @@ To get a signature, follow these steps:
 >```
 - convert the transmitted data to json format;
 - get a json string of the following type: `{"user_id":12345,"text":"Hello, this is bot","type":"text"}`;
-- combine the bot token strings and the resulting json string: `<токен бота> + <полученная json-строка>`
+- combine the bot token strings and the resulting json string: `<bot token> + <received json string>`;
 - after that, use the function to generate a hash string based on the encryption key using the HMAC hashing method and the SHA256 encryption algorithm.<br>
 >**hash_hmac("sha256", <bot token> + <received json string>, <your bot's signature key>)**
 >- hash_hmac is a function for generating a hash string based on your bot's signature key;
@@ -940,7 +940,7 @@ URL for the request: `https://userbot.getcompass.com/api/v2/webhook/getVersion`
 Parameters are **not required** to be sent in the request body.
 
 The result of this method will be:<br>
-version (int) — уровень версии webhook бота.
+version (int) — the version level of the bot webhook.
 
 <details><summary>Example of request execution result</summary>
 
