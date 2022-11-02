@@ -19,10 +19,10 @@
 Chatbots are special accounts created to perform actions within the Compass application on behalf of the bot.
 
 Our chatbot knows how to:
- - Send a message to a user or to a group chat
- - Add reactions to messages
- - Send files to a chat
- - Collect basic information on company members (user_id, name, URL of an avatar file)
+- Send a message to a user or to a group chat
+- Add reactions to messages
+- Send files to a chat
+- Collect basic information on company members (user_id, name, URL of an avatar file)
 
 The actions listed above are implemented through special requests described in [Compass Userbot API methods](#Compass-Userbot-API-methods).
 
